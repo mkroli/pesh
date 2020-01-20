@@ -1,0 +1,24 @@
+[package]
+name = "pesh"
+version = "0.1.0"
+authors = ["Michael Krolikowski <mkroli@yahoo.de>"]
+edition = "2018"
+
+[profile.release]
+opt-level = 'z'
+lto = true
+codegen-units = 1
+
+[dependencies]
+log = "0.4"
+fern = "0.5"
+chrono = "0.4"
+error-chain = "0.11"
+clap = "2"
+rustyline = "6.0"
+nom = "5"
+prometheus = "0.7"
+prometheus_exporter = "0.4"
+lazy_static = "1.4"
+app_dirs = "1.2"
+cedarwood = "0.4"

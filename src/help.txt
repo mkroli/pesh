@@ -1,0 +1,9 @@
+Available commands:
+ - quit|exit                - quit shell
+ - help                     - display this help message
+ - set <metric> = <value>   - sets a metrics value
+ - del <metric>             - deletes a metric
+ - get <metric>             - prints the current value of the given metric
+
+<metric> is defined as follows:
+name | name[key="value", ...]
